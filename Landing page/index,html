@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <style>
+        body{
+            background-image: url(pizza.jpeg)
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background: url('https://example.com/your-pizza-image.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(163, 46, 38, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+        .menu-item p {
+            color: #777;
+        }
+        .cta {
+            background-color: #ff4500;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta button {
+            background-color: white;
+            color: #ff4500;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Delicious Pizza</h1>
+</header>
+
+<div class="hero">
+    <h2>Best Pizza in Town</h2>
+</div>
+
+<div class="content">
+    <h2>Our Menu</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://example.com/pizza1.jpg" alt="Pizza 1">
+            <h3>Margherita</h3>
+            <p>Classic cheese and tomato pizza.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://example.com/pizza2.jpg" alt="Pizza 2">
+            <h3>Pepperoni</h3>
+            <p>Loaded with pepperoni slices.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://example.com/pizza3.jpg" alt="Pizza 3">
+            <h3>Veggie Delight</h3>
+            <p>A mix of fresh vegetables.</p>
+        </div>
+    </div>
+</div>
+
+<div class="cta">
+    <h2>Order Now!</h2>
+    <button onclick="window.location.href='https://example.com/order'">Order Online</button>
+</div>
+
+<footer>
+    <p>&copy; 2024 Delicious Pizza. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
